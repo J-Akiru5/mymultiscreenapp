@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "MyMultiScreenApp",
+    "slug": "MyMultiScreenApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f1724"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0f1724"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+    ,
+    "extra": {
+      "theme": {
+        "colors": {
+          "primary": "#0ea5a4",
+          "background": "#0f1724",
+          "card": "#0b1620",
+          "text": "#f8fafc",
+          "muted": "#94a3b8",
+          "accent": "#7c3aed"
+        }
+      }
+    }
+  }
+}
